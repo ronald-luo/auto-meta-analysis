@@ -1,0 +1,35 @@
+$primary-color: #15202B; // dark teal
+$secondary-color: #2C413B; // forest green
+$accent-color: #E07A5F; // copper
+
+.studyContainer {
+  display: flex;
+  margin-bottom: 2rem;
+
+  .questionContainer {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .extractedContent {
+    min-width: 50vw;
+    width: auto;
+    background-color: $secondary-color;
+    color: white;
+    padding: 1rem 1rem;
+  }
+
+  .questionsContainer {
+    min-width: 50vw;
+    width: 50%;
+    color: white;
+    padding-left: 2rem;
+
+    select {
+      width: 100%;
+      height: auto;
+      height: 2rem;;
+    }
+  }
+}

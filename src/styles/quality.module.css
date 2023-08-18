@@ -1,0 +1,27 @@
+.studyContainer {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.studyContainer .questionContainer {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.studyContainer .extractedContent {
+  min-width: 50vw;
+  width: auto;
+  background-color: #2C413B;
+  color: white;
+  padding: 1rem 1rem;
+}
+.studyContainer .questionsContainer {
+  min-width: 50vw;
+  width: 50%;
+  color: white;
+  padding-left: 2rem;
+}
+.studyContainer .questionsContainer select {
+  width: 100%;
+  height: auto;
+  height: 2rem;
+}/*# sourceMappingURL=quality.module.css.map */
